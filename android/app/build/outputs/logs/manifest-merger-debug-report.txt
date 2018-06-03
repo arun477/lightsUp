@@ -1,0 +1,595 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from [:react-native-firebase] /home/xedflix/arun/lightUp/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-vector-icons] /home/xedflix/arun/lightUp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.4] /home/xedflix/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/08d52835bc92604ee8eb168d7e7f7ff0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/62559117b83fe1a3f978f67fc29e2c52/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/2a9f91aaf8c08c856da6ee5d25729323/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/19c178b5508f403ba9a49aba8afe8f73/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:17:1-29:12
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/2ae56f78a0ad61ad2344d7fffd6ef906/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/2062ff04aca491d34276173c8006e74b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/550de8387c8a708779b78195140c8cd4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ef3ff99e8bf083ca0ff096101c40abdf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/1bfa57444f256be0695546dd97c00736/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/1c6514e689dd59487c09cf751009dac1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/5f822859f2a474ccafb3e79ec135929a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/636bd7b41df3ae67eec43c46b2d49c8b/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /home/xedflix/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/377a35864a9b928cc2b6e8a344b26350/AndroidManifest.xml:1:1-3:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9a28002af22d749994a80a6b3d23ae8a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/06b79d22a670610f394eefac175950a9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f8ca316e9eef6aed7476f05a495a41e1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7913f8c04f55d2e242624c5b27eefe7f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c97cd223d675217aa5c93efeae350cad/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5957debc6c1b5640b5843c0ae562e9fc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/91ce87058801bae76e911993e9c61a4c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/808b38de7e5b16277a133b10dbc6e468/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/f711f4cfe5d586125f0b998e6bd66ca7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ca9e9b3928f6b858a1cf9cce155179b2/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+	package
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:2:62-83
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:2:3-61
+uses-permission#android.permission.INTERNET
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:3:3-65
+MERGED from [:react-native-firebase] /home/xedflix/arun/lightUp/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /home/xedflix/arun/lightUp/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:3:20-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:4:3-75
+MERGED from [com.facebook.react:react-native:0.55.4] /home/xedflix/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/08d52835bc92604ee8eb168d7e7f7ff0/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /home/xedflix/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/08d52835bc92604ee8eb168d7e7f7ff0/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:4:20-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:5:3-79
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:5:20-76
+uses-permission#android.permission.VIBRATE
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:6:3-64
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:6:20-61
+application
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:7:3-39:17
+MERGED from [com.facebook.react:react-native:0.55.4] /home/xedflix/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/08d52835bc92604ee8eb168d7e7f7ff0/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /home/xedflix/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/08d52835bc92604ee8eb168d7e7f7ff0/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/62559117b83fe1a3f978f67fc29e2c52/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/62559117b83fe1a3f978f67fc29e2c52/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/2a9f91aaf8c08c856da6ee5d25729323/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/2a9f91aaf8c08c856da6ee5d25729323/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/19c178b5508f403ba9a49aba8afe8f73/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/19c178b5508f403ba9a49aba8afe8f73/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/2ae56f78a0ad61ad2344d7fffd6ef906/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/2ae56f78a0ad61ad2344d7fffd6ef906/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/2062ff04aca491d34276173c8006e74b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/2062ff04aca491d34276173c8006e74b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/550de8387c8a708779b78195140c8cd4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/550de8387c8a708779b78195140c8cd4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ef3ff99e8bf083ca0ff096101c40abdf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ef3ff99e8bf083ca0ff096101c40abdf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/636bd7b41df3ae67eec43c46b2d49c8b/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/636bd7b41df3ae67eec43c46b2d49c8b/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/xedflix/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/377a35864a9b928cc2b6e8a344b26350/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/xedflix/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/377a35864a9b928cc2b6e8a344b26350/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9a28002af22d749994a80a6b3d23ae8a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9a28002af22d749994a80a6b3d23ae8a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/06b79d22a670610f394eefac175950a9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/06b79d22a670610f394eefac175950a9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f8ca316e9eef6aed7476f05a495a41e1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f8ca316e9eef6aed7476f05a495a41e1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7913f8c04f55d2e242624c5b27eefe7f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7913f8c04f55d2e242624c5b27eefe7f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c97cd223d675217aa5c93efeae350cad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c97cd223d675217aa5c93efeae350cad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ca9e9b3928f6b858a1cf9cce155179b2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ca9e9b3928f6b858a1cf9cce155179b2/AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:7:48-80
+	android:icon
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:7:81-115
+	android:allowBackup
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:7:116-143
+	android:theme
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:7:144-175
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:7:16-47
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:8:5-142
+	android:resource
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:8:87-139
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:8:16-86
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:11:5-128
+	android:resource
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:11:88-125
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:11:16-87
+activity#com.lightup.MainActivity
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:12:5-17:16
+	android:label
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:12:75-107
+	android:launchMode
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:12:15-45
+	android:windowSoftInputMode
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:12:179-221
+	android:configChanges
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:12:108-178
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:12:46-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:13:7-16:23
+action#android.intent.action.MAIN
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:14:9-61
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:14:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:15:9-69
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:15:19-66
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:18:5-82
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:18:15-79
+service#io.invertase.firebase.messaging.RNFirebaseMessagingService
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:19:5-23:15
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:19:14-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:20:7-22:23
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:21:9-70
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:21:17-67
+service#io.invertase.firebase.messaging.RNFirebaseInstanceIdService
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:24:5-28:15
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:24:14-88
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:25:7-27:23
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:26:9-71
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:26:17-69
+service#io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:29:5-100
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:29:14-97
+receiver#io.invertase.firebase.notifications.RNFirebaseNotificationReceiver
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:30:5-98
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:30:15-96
+receiver#io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:31:5-38:16
+	android:enabled
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:31:15-37
+	android:exported
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:31:38-61
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:31:62-150
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:32:7-37:23
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:33:9-70
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:33:17-68
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:34:9-73
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:34:17-71
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:35:9-73
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:35:17-71
+category#android.intent.category.DEFAULT
+ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:36:9-68
+	android:name
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:36:19-65
+uses-sdk
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-firebase] /home/xedflix/arun/lightUp/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /home/xedflix/arun/lightUp/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/xedflix/arun/lightUp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/xedflix/arun/lightUp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /home/xedflix/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/08d52835bc92604ee8eb168d7e7f7ff0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /home/xedflix/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/08d52835bc92604ee8eb168d7e7f7ff0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/62559117b83fe1a3f978f67fc29e2c52/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/62559117b83fe1a3f978f67fc29e2c52/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/2a9f91aaf8c08c856da6ee5d25729323/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/2a9f91aaf8c08c856da6ee5d25729323/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/19c178b5508f403ba9a49aba8afe8f73/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/19c178b5508f403ba9a49aba8afe8f73/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/2ae56f78a0ad61ad2344d7fffd6ef906/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-15.0.0.aar/2ae56f78a0ad61ad2344d7fffd6ef906/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/2062ff04aca491d34276173c8006e74b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/2062ff04aca491d34276173c8006e74b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/550de8387c8a708779b78195140c8cd4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/550de8387c8a708779b78195140c8cd4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ef3ff99e8bf083ca0ff096101c40abdf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ef3ff99e8bf083ca0ff096101c40abdf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/1bfa57444f256be0695546dd97c00736/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/1bfa57444f256be0695546dd97c00736/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/1c6514e689dd59487c09cf751009dac1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/1c6514e689dd59487c09cf751009dac1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/5f822859f2a474ccafb3e79ec135929a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/5f822859f2a474ccafb3e79ec135929a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/636bd7b41df3ae67eec43c46b2d49c8b/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/636bd7b41df3ae67eec43c46b2d49c8b/AndroidManifest.xml:2:3-70
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9a28002af22d749994a80a6b3d23ae8a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9a28002af22d749994a80a6b3d23ae8a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/06b79d22a670610f394eefac175950a9/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/06b79d22a670610f394eefac175950a9/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f8ca316e9eef6aed7476f05a495a41e1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f8ca316e9eef6aed7476f05a495a41e1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7913f8c04f55d2e242624c5b27eefe7f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7913f8c04f55d2e242624c5b27eefe7f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c97cd223d675217aa5c93efeae350cad/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c97cd223d675217aa5c93efeae350cad/AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5957debc6c1b5640b5843c0ae562e9fc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5957debc6c1b5640b5843c0ae562e9fc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/91ce87058801bae76e911993e9c61a4c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/91ce87058801bae76e911993e9c61a4c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/808b38de7e5b16277a133b10dbc6e468/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/808b38de7e5b16277a133b10dbc6e468/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/f711f4cfe5d586125f0b998e6bd66ca7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/f711f4cfe5d586125f0b998e6bd66ca7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ca9e9b3928f6b858a1cf9cce155179b2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/ca9e9b3928f6b858a1cf9cce155179b2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/7e83571e6d01e290b3ba27233b049d34/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/f6082107ef43a5b47d8bea370cf946d5/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/8f9d3a5c619576125103033a29a234e5/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/d5e7910532f06c293eda4890b5baeda2/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:29:9-63
+permission#com.lightup.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:32:22-76
+uses-permission#com.lightup.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.lightup
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:48:27-58
+category#com.lightup
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e8b77f2475934ec7f9550f630854bbd8/AndroidManifest.xml:57:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4cc2eedbf1efe508d711d49eb04d1dc7/AndroidManifest.xml:24:13-79
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/xedflix/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/ee4e6a133953a82e2ff6dcf75a2b5113/AndroidManifest.xml:50:22-86
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/254e17877383b6fc4b3acea27ad12f95/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/xedflix/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a739b2659c65d26dda3a40769a7afdc9/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9a28002af22d749994a80a6b3d23ae8a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9a28002af22d749994a80a6b3d23ae8a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/06b79d22a670610f394eefac175950a9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/06b79d22a670610f394eefac175950a9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f8ca316e9eef6aed7476f05a495a41e1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f8ca316e9eef6aed7476f05a495a41e1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7913f8c04f55d2e242624c5b27eefe7f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7913f8c04f55d2e242624c5b27eefe7f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c97cd223d675217aa5c93efeae350cad/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c97cd223d675217aa5c93efeae350cad/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a08b20010f5a57eaebac94b698d98477/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/xedflix/arun/lightUp/android/app/src/main/AndroidManifest.xml:1:1-40:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/xedflix/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d1e6c867be148b8c65c87c71ad24fd8b/AndroidManifest.xml:26:13-58
